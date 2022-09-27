@@ -17,16 +17,16 @@ PRIMARY KEY (class , roll_no)
 );
 
 INSERT INTO StudentDetails(class , roll_no , name)
-VALUES (8 , 1 , 'abhinay');
+VALUES (8 , 1 , 'himanshu');
 
 INSERT INTO StudentDetails(class , roll_no , name)
-VALUES (8 , 2 , 'suraj');
+VALUES (8 , 2 , 'akshat');
 
 INSERT INTO StudentDetails(class , roll_no , name)
-VALUES (9 , 1 , 'sindhu');
+VALUES (9 , 1 , 'rohit');
 
 INSERT INTO StudentDetails(class , roll_no , name)
-VALUES (10 , 1 , 'arjun');
+VALUES (10 , 1 , 'sourabh');
 
 INSERT INTO StudentMarks(class , roll_no , marks)
 VALUES (8 , 1 , 88);
