@@ -33,7 +33,7 @@ INSERT INTO Orders(order_id , customer_id , order_details)
 VALUES (3 , 2 , 'burger');
 
 INSERT INTO Orders(order_id , customer_id , order_details)
-VALUES (4 , 4 , 'crispy chicken');
+VALUES (4 , 4 , 'chaat');
 
 -- Apply LEFT JOIN 
 SELECT * FROM Orders 
