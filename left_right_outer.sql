@@ -21,13 +21,13 @@ INSERT INTO Customers(customer_id , name , age)
 VALUES (2 , 'Akshat' , 21);
 
 INSERT INTO Customers(customer_id , name , age)
-VALUES (3 , 'Aman' , 22);
+VALUES (3 , 'sourabh' , 22);
 
 INSERT INTO Orders(order_id , customer_id , order_details)
 VALUES (1 , 1 , 'pizza');
 
 INSERT INTO Orders(order_id , customer_id , order_details)
-VALUES (2 , 1 , 'coke');
+VALUES (2 , 1 , 'redbull');
 
 INSERT INTO Orders(order_id , customer_id , order_details)
 VALUES (3 , 2 , 'burger');
