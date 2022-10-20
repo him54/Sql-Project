@@ -1,5 +1,3 @@
-USE people;
-
 SELECT COUNT(*) FROM people.citizen;
 
 CREATE TABLE StudentDetails(
@@ -26,7 +24,7 @@ INSERT INTO StudentDetails(class , roll_no , name)
 VALUES (9 , 1 , 'rohit');
 
 INSERT INTO StudentDetails(class , roll_no , name)
-VALUES (10 , 1 , 'sourabh');
+VALUES (10 , 1 , 'aman');
 
 INSERT INTO StudentMarks(class , roll_no , marks)
 VALUES (8 , 1 , 88);
@@ -43,7 +41,7 @@ VALUES (10 , 1 , 74);
 DELETE FROM StudentMarks
 WHERE (class , roll_no) =  (SELECT class, roll_no
 							FROM StudentDetials
-							WHERE name = 'arjun');
+							WHERE name = 'aman');
                             
 SELECT *
 FROM StudentMarks;
