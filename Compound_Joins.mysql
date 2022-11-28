@@ -27,7 +27,7 @@ INSERT INTO StudentDetails(class , roll_no , name)
 VALUES (9 , 1 , 'Akshat');
 
 INSERT INTO StudentDetails(class , roll_no , name)
-VALUES (10 , 1 , 'Sandeep');
+VALUES (10 , 1 , 'Aman');
 
 INSERT INTO StudentMarks(class , roll_no , marks)
 VALUES (8 , 1 , 88);
