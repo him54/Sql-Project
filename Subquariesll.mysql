@@ -20,10 +20,6 @@ SET marks = marks + 10
 WHERE marks = (SELECT MIN(marks) FROM (SELECT * FROM StudentMarks) as f);
 
 SELECT * FROM StudentMarks;
-
--- DELETE Using Subqueries
--- As 'arjun' is done with his 10th class , he is leaving the school . 
--- Now we need to delete his record from the StudentMarks table .
 /*
 DELETE FROM StudentMarks
 WHERE class = 10 AND roll_no = 1;
@@ -36,6 +32,6 @@ WHERE name = 'himanshu';
 DELETE FROM StudentMarks
 WHERE (class , roll_no) = (SELECT class, roll_no
 							FROM StudentDetails
-							WHERE name = 'arjun');
+							WHERE name = 'himanshu');
 
 SELECT * FROM StudentMarks;
